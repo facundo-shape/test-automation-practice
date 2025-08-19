@@ -1,7 +1,7 @@
 package org.example
 
 fun main() {
-
+    assignmentFifteen()
 }
 
 fun assignmentOne() {
@@ -26,7 +26,7 @@ fun assignmentThree(): Int {
 
 fun assignmentFour(): Double {
     // Make a variable pi with type Double and value 3.14159.
-    val pi: Double = 3.114159
+    val pi: Double = 3.14159
     return pi
 }
 
@@ -112,5 +112,6 @@ fun assignmentFourteen(): Boolean {
 fun assignmentFifteen() {
     // Increase messageCount by 1 and print the result.
     var messageCount = 0
-    println(messageCount++)
+    messageCount++
+    println(messageCount)
 }
