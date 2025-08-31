@@ -1,3 +1,5 @@
+package com.facundo.course.chapter1
+
 fun main() {
     assignmentFifteen()
 }
@@ -54,7 +56,7 @@ fun assignmentEight() {
     Why does this code not compile? Fix it and explain in a comment.
 
         // Original code with error
-        fun main() {
+        fun com.facundo.course.com.facundo.course.chapter1.main() {
             val balance = 100
             balance = 120 // Error here
             println(balance)
